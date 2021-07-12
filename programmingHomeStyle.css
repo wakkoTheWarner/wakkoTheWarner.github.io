@@ -1,0 +1,45 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "sans-serif";
+	box-shadow: 0px 0px 0px;
+}
+@font-face {
+	font-family: artsy; src: url("other/DkCrayonCrumble-ddll.ttf");
+}
+.logo {
+	padding: 20px 100px;
+	float: left;
+}
+.logo img {
+	float: left;
+}
+.nameTitle {
+	font-family: artsy;
+	padding: 20px 0px 0px 20px;
+	font-size: 50px;
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+}
+.navigator {
+	float: right;
+	padding: 20px 100px;
+}
+.navigator li {
+	float: left;
+	padding: 20px;
+	list-style: none;
+	font-size: 20px;
+}
+.navigator a {
+	text-decoration: none;
+	color: black;
+}
+.navigator a:hover {
+	border-bottom: solid medium black;
+}
+#body {
+	clear: both;
+}

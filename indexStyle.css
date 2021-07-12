@@ -1,0 +1,35 @@
+@charset "utf-8";
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "sans-serif";
+}
+@font-face {
+	font-family: artsy; src: url("other/DkCrayonCrumble-ddll.ttf"); 
+}
+#header {
+	text-align: center;
+	font-size: 60px;
+	padding: 150px;
+}
+#header p {
+	font-family: artsy, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+#body {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:69%;
+}
+.programming {
+	float: left;
+	width: 400px;
+}
+.programming img {
+	width: 400px;
+}
+.rigging {
+}
+.rigging img {
+	width: 565px
+}
